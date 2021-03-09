@@ -36,9 +36,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
 # Fingerprint
-ifeq ($(TARGET_BUILD_VARIANT),user)
 BUILD_FINGERPRINT ?= google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
-endif
 
 # Gestures
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
