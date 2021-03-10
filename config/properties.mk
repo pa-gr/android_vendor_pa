@@ -36,7 +36,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
 # Fingerprint
-BUILD_FINGERPRINT ?= google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_FINGERPRINT ?= google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.007 7124944 release-keys"
 
 # Gestures
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
