@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+exit()
+
 # roomservice: Android device repository management utility.
 # Copyright (C) 2013 Cybojenix <anthonydking@gmail.com>
 # Copyright (C) 2013 The OmniROM Project
