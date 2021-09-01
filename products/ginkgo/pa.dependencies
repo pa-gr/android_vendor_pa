@@ -1,32 +1,26 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_ginkgo",
+        "remote":       "github",
+        "repository":   "pa-surya/device_xiaomi_ginkgo",
         "target_path":  "device/xiaomi/ginkgo",
         "revision":     "ruby"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_trinket-common",
-        "target_path":  "device/xiaomi/trinket-common",
-        "revision":     "ruby"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_ginkgo",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_kernel_xiaomi_ginkgo",
         "target_path":  "kernel/xiaomi/ginkgo",
+        "revision":     "11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-surya/vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
         "revision":     "ruby"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_vendor_miuicamera",
-        "target_path":  "vendor/miuicamera",
-        "revision":     "ruby-a3"
-    },
-    {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
+        "remote":       "github",
+        "repository":   "vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo",
         "revision":     "ruby"
     },
     {
